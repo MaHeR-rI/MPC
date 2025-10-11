@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link class="style-url" rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>MASDAR | Blogs</title>
+</head>
+
+<body>
+    <div class="main-loader" style="width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #474342;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 500">
+        <div>
+            <img src="./images/logo-wheel-2.gif" alt="" style="    width: 100px;
+            position: relative;
+            margin-bottom: 15px">
+        </div>
+        <span class="tr" key="loading">loading...</span>
+    </div>
+    <nav class="navbar navbar-expand-md" id="navbar">
+        <div class="container-xl">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link tr" key="home" href="./index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tr" key="about" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle tr" key="products" href="./products.html"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./products.html">Action</a>
+                            <a class="dropdown-item" href="./single-products.html">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link tr" key="blogs" href="./blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link tr" key="partners" href="./about.html#locations">Partners</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link tr" key="contact" href="./contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="select" tabindex="1">
+                            <input class="selectopt" name="lang" type="radio" value="en" id="en">
+                            <label for="en" class="option">En</label>
+                            <input class="selectopt" name="lang" type="radio" value="ar" id="ar">
+                            <label for="ar" class="option">Ar</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="head-cover blogs-cover">
+        <div class="title">
+            <div class="container position-relative">
+                <h1 class="tr" key="blogs">Blogs</h1>
+                <div class="bullets">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                <a class="caption tr" key="caption" href="./products.html">MISSION AND VISION</a>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 ">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5>Title</h5>
+                    <div class="blog-image mb-3">
+                        <img class="border-img" src="./images/border-wheel.svg" alt="">
+                        <img class="image"
+                        loading="lazy"
+                           src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
+                            alt="blog">
+                    </div>
+                    <div class="blog-card-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit culpa fuga enim ex.
+                            Earum voluptatibus qui id dolore placeat laborum asperiores, porro, in aliquam repellat, ut
+                            modi eveniet eaque!
+                        </p>
+                        <a href="">read more...</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="800">
+                    
+                    <div class="blog-image mb-3">
+                        <img class="border-img" src="./images/border-wheel.svg" alt="">
+                        <img class="image"
+                        loading="lazy"
+                            src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
+                            alt="blog">
+                    </div>
+                    <h5>Title</h5>
+                    <div class="blog-card-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit culpa fuga enim ex.
+                            Earum voluptatibus qui id dolore placeat laborum asperiores, porro, in aliquam repellat, ut
+                            modi eveniet eaque!
+                        </p>
+                        <a href="">read more...</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5>Title</h5>
+                    <div class="blog-image mb-3">
+                        <img class="border-img" src="./images/border-wheel.svg" alt="">
+                        <img class="image"
+                        loading="lazy"
+                           src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
+                            alt="blog">
+                    </div>
+                    <div class="blog-card-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit culpa fuga enim ex.
+                            Earum voluptatibus qui id dolore placeat laborum asperiores, porro, in aliquam repellat,
+                            ut
+                            modi eveniet eaque!
+                        </p>
+                        <a href="">read more...</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="blogs-pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">&raquo;</a>
+        </div>
+        <hr class="blogs-hr">
+    </div>
+    <footer class="footer text-left text-md-start ">
+        <div class="container top-footer">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-6 mb-4 mb-md-0 mb-sm-0 ">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./images/logo-black.png" alt="logo">
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet conseprehenderit provident molestiae quia itaque officia quas, at
+                        autem aliquid eveniet sapiente adipisci atque quae.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase tr" key="links">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="tr" key="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="tr" key="about">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="tr" key="products">Products</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="tr" key="contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="tr" key="blogs">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase tr" key="social">Social media</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-instagram"></i> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-linkedin"></i> Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-twitter-square"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0 tr" key="phones">Phones</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">+961 76 511 394</a>
+                        </li>
+                        <li>
+                            <a href="#!">+961 76 511 394</a>
+                        </li>
+                        <li>
+                            <a href="#!">+961 76 511 394</a>
+                        </li>
+                        <li>
+                            <a href="#!">+961 76 511 394</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 sub-footer">
+            © 2022 Copyright:
+            <a href="https://mdbootstrap.com/">Creatives Vision</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+
+</html>
